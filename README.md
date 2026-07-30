@@ -114,15 +114,10 @@ The ESP32 parses the request and moves the corresponding servo.
 
 # Screenshots
 
-Add screenshots of the dashboard here.
-
+to be added
 ---
 
-# License
 
-This project is licensed under the MIT License.
-
----
 
 # Author
 
