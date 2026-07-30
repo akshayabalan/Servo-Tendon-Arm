@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Servo Tendon Arm Controller</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<header>
+
+    <div class="title">
+
+        <h1> Tendon Arm Controller</h1>
+
+        <p>ESP32 Wi-Fi Servo Dashboard</p>
+
+    </div>
+
+    <div class="status">
+
+        <div class="status-dot"></div>
+
+        <span id="connectionStatus">
+            Connected to ESP32
+        </span>
+
+    </div>
+
+</header>
+
+<div class="main-container">
+
+    <!-- LEFT PANEL -->
+
+    <div class="panel left-panel">
+
+        <h2>Finger Controls</h2>
+
+        <div class="servo-card">
+
+            <label> Pinky (GPIO 14)</label>
+
+            <input type="range" id="servo14" min="0" max="180" value="90">
+
+            <span id="value14">90°</span>
+
+        </div>
+
+        <div class="servo-card">
+
+            <label> Ring (GPIO 13)</label>
+
+            <input type="range" id="servo13" min="0" max="180" value="90">
+
+            <span id="value13">90°</span>
+
+        </div>
+
+        <div class="servo-card">
+
+            <label> Middle (GPIO 12)</label>
+
+            <input type="range" id="servo12" min="0" max="180" value="90">
+
+            <span id="value12">90°</span>
+
+        </div>
+
+        <div class="servo-card">
+
+            <label> Index (GPIO 26)</label>
+
+            <input type="range" id="servo26" min="0" max="180" value="90">
+
+            <span id="value26">90°</span>
+
+        </div>
+
+        <div class="servo-card">
+
+            <label> Thumb (GPIO 19)</label>
+
+            <input type="range" id="servo19" min="0" max="180" value="90">
+
+            <span id="value19">90°</span>
+
+        </div>
+
+        <div class="servo-card">
+
+            <label> Fist Release (GPIO 27)</label>
+
+            <input type="range" id="servo27" min="0" max="180" value="90">
+
+            <span id="value27">90°</span>
+
+        </div>
+
+    </div>
+
+    <!-- CENTER -->
+
+    <div class="center-panel">
+
+        <div class="robot-card">
+
+            <h2>Robotic Hand</h2>
+
+            <img src="robot-hand.png" id="robotHand">
+
+            <p class="hint">
+
+                Move the sliders to control each tendon-driven finger.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="panel right-panel">
+
+        <h2>Quick Gestures</h2>
+
+        <button class="gesture open" onclick="openHand()">
+
+             Open Hand
+
+        </button>
+
+        <button class="gesture close" onclick="closeHand()">
+
+            Close Hand
+
+        </button>
+
+        <button class="gesture peace" onclick="peaceSign()">
+
+             Peace
+
+        </button>
+
+        <button class="gesture thumbs" onclick="thumbsUp()">
+
+             Thumbs Up
+
+        </button>
+
+        <button class="gesture rock" onclick="rockSign()">
+
+             Rock
+
+        </button>
+
+        <button class="gesture reset" onclick="resetAll()">
+
+             Reset
+
+        </button>
+
+    </div>
+
+</div>
+
+<footer>
+
+Designed for ESP32 Tendon Servo Arm
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
