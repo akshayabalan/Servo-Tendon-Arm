@@ -7,7 +7,7 @@ The system allows each finger to be controlled independently over Wi-Fi, while a
 
 The project combines **mechanical prototyping, tendon-based actuation, embedded programming, wireless communication, and web development** into a single working robotic system.
 
-![Final Robotic Hand](images/final.jpg)
+![Final Robotic Hand](images/final.jpeg)
 
 ---
 
@@ -55,7 +55,7 @@ The prototype was constructed using a combination of:
 * A 3D-printed hand structure
 * Adhesive and improvised mechanical supports
 
-![Mechanical Prototype](images/prototype.jpg)
+![Mechanical Prototype](images/prototype.jpeg)
 
 ### Tendon Mechanism
 
@@ -71,7 +71,7 @@ Finger bends
 Robotic hand changes pose
 ```
 
-![Tendon Mechanism](images/tendon-mechanism.jpg)
+![Tendon Mechanism](images/tendon-mechanism.jpeg)
 
 The mechanical design went through multiple iterations while experimenting with tendon routing, servo placement, tension, and alignment.
 
@@ -94,7 +94,7 @@ The servos are powered through an external supply rather than drawing their oper
 | Tendon-driven robotic hand |        1 |
 | Wi-Fi enabled device       |        1 |
 
-![Electronics Setup](images/electronics.jpg)
+![Electronics Setup](images/electronics.jpeg)
 
 ---
 
@@ -139,7 +139,7 @@ The browser-based interface provides:
 * ESP32 connection configuration
 * Responsive controls suitable for laptops and mobile devices
 
-![Control Dashboard](images/dashboard.jpg)
+![Control Dashboard](images/dashboard.jpeg)
 
 ---
 
@@ -237,7 +237,7 @@ The development process involved experimenting with:
 * Wireless communication
 * Browser-based control
 
-![Prototype Development](images/development.jpg)
+![Prototype Development](images/development.jpeg)
 
 The physical prototype was intentionally built using readily available materials, making it possible to iterate quickly without specialized manufacturing equipment.
 
