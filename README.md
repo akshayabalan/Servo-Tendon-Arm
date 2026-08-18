@@ -237,7 +237,7 @@ The development process involved experimenting with:
 * Wireless communication
 * Browser-based control
 
-![Prototype Development](images/development.jpeg)
+![Prototype Development](images/prototype.jpeg)
 
 The physical prototype was intentionally built using readily available materials, making it possible to iterate quickly without specialized manufacturing equipment.
 
@@ -338,7 +338,7 @@ Some of the most valuable lessons came from the physical problems rather than th
 
 ## Demonstration
 
-A demonstration video can be added here in the future.
+A demonstration video will be added here in the future.
 
 For now, the repository contains photographs showing the mechanical prototype, tendon mechanism, electronics, and integrated system.
 
@@ -352,9 +352,3 @@ Built as an independent robotics project using the ESP32 platform.
 
 ---
 
-## License
-
-Add a license according to how you want others to use, modify, and distribute the project.
-
-```
-```
