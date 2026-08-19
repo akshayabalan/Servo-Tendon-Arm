@@ -6,8 +6,8 @@
 // WiFi Credentials
 //==============================
 
-const char* ssid = "Akshay";
-const char* password = "15021502";
+const char* ssid = "Your Wifi Name";
+const char* password = "Your wifi password";
 
 //==============================
 // Web Server
